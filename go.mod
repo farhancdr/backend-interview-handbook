@@ -1,3 +1,3 @@
-module github.com/farhan/golang-interview-handbook
+module github.com/farhancdr/backend-interview-handbook
 
 go 1.25.5

@@ -1,4 +1,4 @@
-# Architecture - Golang Interview Handbook
+# Architecture - Backend Interview Handbook
 
 ## System Design
 
@@ -432,4 +432,4 @@ This is an educational project with:
 
 ---
 
-**Architecture Philosophy**: Simple, clear, executable, interview-focused. Every design decision supports the core goal: helping engineers prepare for Go interviews through hands-on practice.
+**Architecture Philosophy**: Simple, clear, executable, interview-focused. Every design decision supports the core goal: helping backend engineers prepare for interviews through hands-on Go practice covering CS fundamentals, Go internals, and system design.

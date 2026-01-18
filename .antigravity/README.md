@@ -1,4 +1,4 @@
-# AI Agent Context - Golang Interview Handbook
+# AI Agent Context - Backend Interview Handbook
 
 ## Quick Start for AI Agents
 
@@ -13,10 +13,10 @@ If you're an AI agent resuming work on this project, start here:
 
 ## Project Summary (TL;DR)
 
-**What**: Executable Golang interview preparation handbook  
-**Goal**: Help engineers prepare for Go interviews through runnable code examples  
-**Status**: 10/70 topics complete (14%), 131 tests passing  
-**Next**: Complete concurrency package (6 more topics)
+**What**: Executable backend engineering interview preparation handbook (Go-powered)  
+**Goal**: Help backend engineers prepare for interviews through runnable Go code examples covering CS fundamentals, Go internals, and system design  
+**Status**: Fundamentals enriched with 18 new topics (OS, Networking, Database), 131 tests passing  
+**Next**: Continue with concurrency and advanced topics
 
 ## Key Principles
 

@@ -1,15 +1,15 @@
-# 🦄 The Ultimate Golang Interview Handbook
+# 🦄 The Ultimate Backend Interview Handbook
 
-> **Executable. Comprehensive. Zero Dependencies.**
+> **Executable. Comprehensive. Go-Powered.**
 >
-> Stop reading static tutorials. Start running code.
+> Master backend engineering fundamentals through runnable Go code examples.
 
 ![Go Version](https://img.shields.io/badge/go-1.21+-00ADD8?style=flat-square&logo=go)
 ![Tests](https://img.shields.io/badge/tests-passing-success?style=flat-square)
 ![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)
 ![Dependencies](https://img.shields.io/badge/dependencies-zero-orange?style=flat-square)
 
-A hands-on, battle-tested repository for backend engineers preparing for Go interviews. From **Goroutine leaks** to **System Design patterns**, everything is implemented using only the standard library.
+A hands-on, battle-tested repository for backend engineers preparing for interviews. From **OS fundamentals** to **Distributed Systems**, from **Go concurrency** to **Database internals**—everything is implemented as executable Go code using only the standard library.
 
 ---
 
@@ -60,14 +60,21 @@ We've organized the chaos into 10 structured domains.
 | **[`internal/algo`](internal/algo)** | Algorithms | Sliding Window, Backtracking, DFS/BFS, Sorting |
 | **[`internal/leetcode`](internal/leetcode)** | **Sandbox** | Two Sum, Valid Parentheses, Stock Best Time (100% Executable) |
 
+### 📚 Phase 5: CS Fundamentals (Theory)
+| Package | Description | Key Concepts |
+|:---|:---|:---|
+| **[`fundamentals/os`](fundamentals/os)** | Operating Systems | Process vs Thread, Concurrency Models, Virtual Memory, CPU Scheduling, Deadlock, Memory Management, System Calls, File Systems |
+| **[`fundamentals/networking`](fundamentals/networking)** | Networking | TCP vs UDP, HTTP Evolution, Load Balancing (L4/L7), DNS, WebSockets/SSE, TLS/SSL, gRPC/GraphQL, CDN, API Gateway |
+| **[`fundamentals/database`](fundamentals/database)** | Databases | ACID, Isolation Levels, Indexing (B-Tree vs LSM), CAP, Replication, Locking, Query Optimization, NoSQL vs SQL, Connection Pooling, Caching, Distributed Transactions |
+
 ---
 
 ## 🛠️ Quick Start
 
 ### 1. Clone & Run
 ```bash
-git clone https://github.com/farhan/golang-interview-handbook.git
-cd golang-interview-handbook
+git clone https://github.com/farhancdr/backend-interview-handbook.git
+cd backend-interview-handbook
 
 # Run EVERYTHING (Success means you're ready!)
 go test ./...

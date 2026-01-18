@@ -5,7 +5,7 @@
 **Phase**: Maintenance / Enrichment
 **Progress**: 100%
 
-The Golang Interview Handbook is fully implemented with 11 internal packages covering Basics, Intermediate, Advanced, Concurrency, Memory, Internals, Patterns, Data Structures, Algorithms, System Design, and a LeetCode Sandbox.
+The Backend Interview Handbook is fully implemented with 11 internal packages covering Basics, Intermediate, Advanced, Concurrency, Memory, Internals, Patterns, Data Structures, Algorithms, System Design, and a LeetCode Sandbox. The fundamentals folder has been enriched with 18 new comprehensive topics covering OS, Networking, and Database concepts commonly asked in senior backend engineer interviews.
 
 ## Core Metrics
 - **Packages Implemented**: 11/11

@@ -1,4 +1,4 @@
-# Contributing to Golang Interview Handbook
+# Contributing to Backend Interview Handbook
 
 Thank you for your interest in contributing! This guide will help you add new topics while maintaining consistency.
 

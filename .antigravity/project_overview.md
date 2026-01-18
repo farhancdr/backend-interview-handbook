@@ -1,7 +1,7 @@
 # Project Overview
 
 ## Philosophy
-The **Golang Interview Handbook** is designed to be the ultimate executable reference for Go engineers. It rejects the "passive reading" model of typical interview prep. Instead, it embraces "executable learning":
+The **Backend Interview Handbook** is designed to be the ultimate executable reference for backend engineers. It rejects the "passive reading" model of typical interview prep. Instead, it embraces "executable learning" through Go:
 
 > **If you can't run it/test it/break it, you don't know it.**
 
@@ -36,6 +36,11 @@ The project is organized into `internal/` packages to simulate a real Go project
 *   **`internal/ds`**: Production-quality implementations of Stack, Queue, Heap, BST, LRU Cache.
 *   **`internal/algo`**: Interview staples. Binary Search, DFS/BFS, Sliding Window, Backtracking.
 *   **`internal/leetcode`**: **(NEW)** A sandbox for practicing LeetCode-style problems with pre-written tests to verify your solutions.
+
+### 🟣 CS Theory (Fundamentals)
+*   **`fundamentals/os`**: Process vs Thread, Concurrency Models, Virtual Memory, CPU Scheduling, Deadlock, Memory Management, System Calls, File Systems.
+*   **`fundamentals/networking`**: TCP vs UDP, HTTP Evolution, Load Balancing (L4/L7), DNS, WebSockets/SSE, TLS/SSL, gRPC/GraphQL, CDN, API Gateway.
+*   **`fundamentals/database`**: ACID, Isolation Levels, Indexing (B-Tree vs LSM), CAP, Replication, Locking, Query Optimization, NoSQL vs SQL, Connection Pooling, Caching Strategies, Distributed Transactions.
 
 ## Workflow for Users
 

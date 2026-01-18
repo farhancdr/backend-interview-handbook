@@ -1,7 +1,7 @@
-# Implementation Guide - Golang Interview Handbook
+# Implementation Guide - Backend Interview Handbook
 
 ## Purpose
-This guide provides step-by-step instructions for AI agents to add new topics to the Golang Interview Handbook while maintaining consistency and quality.
+This guide provides step-by-step instructions for AI agents to add new topics to the Backend Interview Handbook while maintaining consistency and quality.
 
 ## Standard Implementation Pattern
 
@@ -427,4 +427,4 @@ Every topic should be:
 
 ---
 
-**Remember**: The goal is executable documentation that helps engineers prepare for interviews. Keep it simple, clear, and focused on interview-relevant content.
+**Remember**: The goal is executable documentation that helps backend engineers prepare for interviews through hands-on Go practice. Keep it simple, clear, and focused on interview-relevant content.
