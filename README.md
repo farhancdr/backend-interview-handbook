@@ -13,7 +13,7 @@ A hands-on, battle-tested repository for backend engineers preparing for Go inte
 
 ---
 
-## � Why This Handbook?
+## 🚀 Why This Handbook?
 
 Most interview prep materials are static text. This repository is **executable code**.
 
@@ -58,6 +58,7 @@ We've organized the chaos into 10 structured domains.
 |:---|:---|:---|
 | **[`internal/ds`](internal/ds)** | Data Structures | LRU Cache, Heap, BST, Linked List, Stack/Queue |
 | **[`internal/algo`](internal/algo)** | Algorithms | Sliding Window, Backtracking, DFS/BFS, Sorting |
+| **[`internal/leetcode`](internal/leetcode)** | **Sandbox** | Two Sum, Valid Parentheses, Stock Best Time (100% Executable) |
 
 ---
 
@@ -83,6 +84,12 @@ go test -race -v ./internal/concurrency/
 See the difference between pre-allocating slices vs appending blindly:
 ```bash
 go test -bench=. ./internal/memory/
+```
+
+### 4. Practice LeetCode
+Test your solutions against our pre-written test cases:
+```bash
+go test -v ./internal/leetcode/
 ```
 
 ---
@@ -123,6 +130,7 @@ func (rl *RateLimiter) AllowN(n float64) bool {
 - [ ] Can you implement **Graceful Shutdown**? (See `internal/patterns/server.go`)
 - [ ] Do you know **Slice Capacity** growth rules? (See `internal/memory/slice_capacity.go`)
 - [ ] Can you write a **Worker Pool** from scratch? (See `internal/concurrency/worker_pool.go`)
+- [ ] Can you solve **Two Sum** in O(n) without Googling? (See `internal/leetcode/two_sum.go`)
 
 ---
 

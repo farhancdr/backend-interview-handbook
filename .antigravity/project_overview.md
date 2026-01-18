@@ -35,6 +35,7 @@ The project is organized into `internal/` packages to simulate a real Go project
 ### 🔴 DSA (Data Structures & Algorithms)
 *   **`internal/ds`**: Production-quality implementations of Stack, Queue, Heap, BST, LRU Cache.
 *   **`internal/algo`**: Interview staples. Binary Search, DFS/BFS, Sliding Window, Backtracking.
+*   **`internal/leetcode`**: **(NEW)** A sandbox for practicing LeetCode-style problems with pre-written tests to verify your solutions.
 
 ## Workflow for Users
 
