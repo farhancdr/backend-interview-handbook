@@ -92,7 +92,7 @@ func DemonstrateSliceSharing() (original, slice1, slice2 []int, modified bool) {
 
 // AppendCausingReallocation shows when append creates new array
 func AppendCausingReallocation() (original, appended []int, sameArray bool) {
-	original = make([]int, 3, 3) // len=3, cap=3
+	original = make([]int, 3) // len=3, cap=3
 	original[0], original[1], original[2] = 1, 2, 3
 
 	// This will cause reallocation since cap is full

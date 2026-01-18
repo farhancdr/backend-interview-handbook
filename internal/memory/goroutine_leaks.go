@@ -47,10 +47,7 @@ func FixedWithContext(ctx context.Context) int {
 	before := runtime.NumGoroutine()
 
 	go func() {
-		select {
-		case <-ctx.Done():
-			return // Properly exits when context is cancelled
-		}
+		<-ctx.Done() // Properly exits when context is cancelled
 	}()
 
 	time.Sleep(10 * time.Millisecond)
