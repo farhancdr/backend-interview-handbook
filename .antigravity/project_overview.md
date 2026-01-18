@@ -21,7 +21,7 @@ The project is organized into `internal/` packages to simulate a real Go project
 ### 🟢 Foundation Layers
 *   **`internal/basics`**: The "must-knows". Arrays, Slices, Maps, Structs. Pitfalls like `nil` slice vs empty slice.
 *   **`internal/intermediate`**: Interfaces, Defer mechanics, Error wrapping.
-*   **`internal/advanced`**: Generics, Reflection, Unsafe pointer usage (carefully).
+*   **`internal/advanced`**: Context, Generics, Reflection, Unsafe pointer usage (Zero-Copy), Memory Alignment optimization.
 
 ### 🔵 Concurrency & Runtime
 *   **`internal/concurrency`**: The crown jewel. Channels, Select, Worker Pools, Context timeouts.

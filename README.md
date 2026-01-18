@@ -38,7 +38,7 @@ We've organized the chaos into 10 structured domains.
 |:---|:---|:---|
 | **[`internal/basics`](internal/basics)** | The "Must-Knows" | Value/Ref semantics, Slices vs Arrays, Maps |
 | **[`internal/intermediate`](internal/intermediate)** | Idiomatic Go | Defer, Panic/Recover, Error Wrapping, Interfaces |
-| **[`internal/advanced`](internal/advanced)** | Power User | Context Propagation, Generics, Reflection |
+| **[`internal/advanced`](internal/advanced)** | Power User | Context, Generics, Reflection, Unsafe, Memory Alignment |
 
 ### ⚡ Phase 2: Concurrency & Runtime (The Hard Stuff)
 | Package | Description | Key Concepts |
