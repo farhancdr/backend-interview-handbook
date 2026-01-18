@@ -69,6 +69,36 @@ We've organized the chaos into 10 structured domains.
 
 ---
 
+## 🧭 Browse by Topic
+
+**New to the handbook?** Start with these curated navigation pages:
+
+### 📖 Fundamentals (Theory)
+- **[All Fundamentals](fundamentals/)** - Overview of OS, Networking, and Database topics
+  - [Operating Systems](fundamentals/os/) - 8 essential OS topics
+  - [Networking](fundamentals/networking/) - 8 networking fundamentals
+  - [Database](fundamentals/database/) - 9 database concepts
+
+### 💻 Internal Packages (Go Code)
+- **[All Internal Packages](internal/)** - Complete guide to executable Go examples
+  - **Phase 1: Foundations**
+    - [Basics](internal/basics/) - Arrays, slices, maps, interfaces, errors
+    - [Intermediate](internal/intermediate/) - Defer, panic, error wrapping
+    - [Advanced](internal/advanced/) - Context, generics, reflection, unsafe
+  - **Phase 2: Concurrency & Runtime**
+    - [Concurrency](internal/concurrency/) - Goroutines, channels, mutex, worker pools
+    - [Memory](internal/memory/) - Performance optimization, GC patterns
+    - [Internals](internal/internals/) - GMP scheduler, GC internals
+  - **Phase 3: Real-World Engineering**
+    - [Patterns](internal/patterns/) - Repository, middleware, circuit breaker
+    - [System Design](internal/system_design/) - Rate limiter, cache, pub-sub
+  - **Phase 4: CS Fundamentals**
+    - [Data Structures](internal/ds/) - LRU cache, heap, BST, linked list
+    - [Algorithms](internal/algo/) - Binary search, sliding window, DP
+    - [LeetCode](internal/leetcode/) - Practice problems with solutions
+
+
+
 ## 🛠️ Quick Start
 
 ### 1. Clone & Run

@@ -15,7 +15,7 @@ If you're an AI agent resuming work on this project, start here:
 
 **What**: Executable backend engineering interview preparation handbook (Go-powered)  
 **Goal**: Help backend engineers prepare for interviews through runnable Go code examples covering CS fundamentals, Go internals, and system design  
-**Status**: Fundamentals enriched with 18 new topics (OS, Networking, Database), 131 tests passing  
+**Status**: Fundamentals enriched with 25 topics (OS, Networking, Database), navigation system with 16 index files, 131 tests passing  
 **Next**: Continue with concurrency and advanced topics
 
 ## Key Principles
@@ -35,6 +35,24 @@ If you're an AI agent resuming work on this project, start here:
 ├── implementation_guide.md   # How to add new topics
 ├── architecture.md           # Technical architecture
 └── status.md                 # Current progress & next steps
+
+Navigation System (NEW):
+├── fundamentals/README.md    # Main fundamentals index
+│   ├── os/README.md          # OS topics index
+│   ├── networking/README.md  # Networking topics index
+│   └── database/README.md    # Database topics index
+└── internal/README.md        # Main internal packages index
+    ├── basics/README.md      # Go basics index
+    ├── intermediate/README.md
+    ├── advanced/README.md
+    ├── concurrency/README.md
+    ├── memory/README.md
+    ├── internals/README.md
+    ├── patterns/README.md
+    ├── system_design/README.md
+    ├── ds/README.md
+    ├── algo/README.md
+    └── leetcode/README.md
 ```
 
 ## Current State

@@ -430,6 +430,57 @@ This is an educational project with:
 - No breaking changes
 - Backward compatibility
 
+## Documentation Structure
+
+### Navigation System
+
+The project includes a comprehensive navigation system with README.md index files:
+
+```
+README.md (main entry)
+├── Browse by Topic section
+├── Links to fundamentals/
+└── Links to internal/
+
+fundamentals/README.md
+├── Overview of OS, Networking, Database
+├── os/README.md (8 topics)
+├── networking/README.md (8 topics)
+└── database/README.md (9 topics)
+
+internal/README.md
+├── Learning path organized by phase
+├── basics/README.md (6 topics)
+├── intermediate/README.md (placeholder)
+├── advanced/README.md (6 topics)
+├── concurrency/README.md (4 topics)
+├── memory/README.md (6 topics)
+├── internals/README.md (placeholder)
+├── patterns/README.md (7 topics)
+├── system_design/README.md (6 topics)
+├── ds/README.md (8 topics)
+├── algo/README.md (5 topics)
+└── leetcode/README.md (4 topics)
+```
+
+### Index File Features
+
+Each README.md index includes:
+- **Topic Overview**: Table of topics with descriptions
+- **Learning Guide**: Recommended study order
+- **Interview Questions**: Common questions for each topic
+- **Key Takeaways**: Critical concepts to remember
+- **Related Topics**: Cross-references to other sections
+- **Quick Start**: Commands to run tests
+
+### Benefits
+
+1. **Website-like Navigation**: Browse topics without clicking through file tree
+2. **Discoverability**: Easy to find related topics
+3. **Context**: Each index provides learning context
+4. **Interview Prep**: Focused on interview-relevant information
+5. **Self-Contained**: Each section can be studied independently
+
 ---
 
 **Architecture Philosophy**: Simple, clear, executable, interview-focused. Every design decision supports the core goal: helping backend engineers prepare for interviews through hands-on Go practice covering CS fundamentals, Go internals, and system design.

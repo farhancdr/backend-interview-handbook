@@ -44,11 +44,23 @@ The project is organized into `internal/` packages to simulate a real Go project
 
 ## Workflow for Users
 
-1.  **Select a Topic**: Pick a package based on study needs (e.g., `concurrency`).
-2.  **Run the Test**: `go test -v ./internal/concurrency/`.
-3.  **Read the Source**: Open the `.go` file. Read the "Why interviewers ask this" header.
-4.  **Experiment**: Change a buffer size, remove a lock, or modify a timeout. Run the test again to see it fail.
-5.  **Internalize**: The failure confirms your understanding of *why* the code was written that way.
+1.  **Browse Topics**: Use the navigation system - start at main [README](../README.md), navigate to [fundamentals](../fundamentals/) or [internal](../internal/), then drill down to specific topics.
+2.  **Select a Topic**: Pick a package based on study needs (e.g., `concurrency`).
+3.  **Run the Test**: `go test -v ./internal/concurrency/`.
+4.  **Read the Source**: Open the `.go` file. Read the "Why interviewers ask this" header.
+5.  **Experiment**: Change a buffer size, remove a lock, or modify a timeout. Run the test again to see it fail.
+6.  **Internalize**: The failure confirms your understanding of *why* the code was written that way.
+
+## Navigation System
+
+The project now includes a comprehensive navigation system with README.md index files throughout:
+
+- **Main Entry**: [README.md](../README.md) with "Browse by Topic" section
+- **Fundamentals**: [fundamentals/README.md](../fundamentals/) with links to OS, Networking, Database subdirectories
+- **Internal Packages**: [internal/README.md](../internal/) with organized learning path
+- **Topic Indexes**: Each subdirectory has its own README with topic listings, learning guides, and interview tips
+
+This enables website-like browsing on GitHub without needing to click through individual files.
 
 ## Target Audience
 *   **Mid-Senior Engineers**: Refreshing on internals and system design patterns.
