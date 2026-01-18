@@ -10,7 +10,7 @@ This section covers the theoretical foundations that underpin all backend system
 
 ## 🗂️ Topics
 
-### 🖥️ [Operating Systems](os/)
+### 🖥️ [Operating Systems](os/README.md)
 
 Understanding how operating systems work is crucial for writing efficient backend code.
 
@@ -24,11 +24,11 @@ Understanding how operating systems work is crucial for writing efficient backen
 - System Calls
 - File Systems
 
-**[→ Browse OS Topics](os/)**
+**[→ Browse OS Topics](os/README.md)**
 
 ---
 
-### 🌐 [Networking](networking/)
+### 🌐 [Networking](networking/README.md)
 
 Master the protocols and patterns that enable distributed systems.
 
@@ -42,11 +42,11 @@ Master the protocols and patterns that enable distributed systems.
 - CDN & Edge Computing
 - API Gateway
 
-**[→ Browse Networking Topics](networking/)**
+**[→ Browse Networking Topics](networking/README.md)**
 
 ---
 
-### 🗄️ [Database](database/)
+### 🗄️ [Database](database/README.md)
 
 Deep understanding of database internals and distributed data systems.
 
@@ -61,7 +61,7 @@ Deep understanding of database internals and distributed data systems.
 - Caching Strategies
 - Distributed Transactions
 
-**[→ Browse Database Topics](database/)**
+**[→ Browse Database Topics](database/README.md)**
 
 ---
 

@@ -56,16 +56,16 @@ We've organized the chaos into 10 structured domains.
 ### 🧠 Phase 4: CS Fundamentals
 | Package | Description | Key Concepts |
 |:---|:---|:---|
-| **[`internal/ds`](internal/ds)** | Data Structures | LRU Cache, Heap, BST, Linked List, Stack/Queue |
-| **[`internal/algo`](internal/algo)** | Algorithms | Sliding Window, Backtracking, DFS/BFS, Sorting |
-| **[`internal/leetcode`](internal/leetcode)** | **Sandbox** | Two Sum, Valid Parentheses, Stock Best Time (100% Executable) |
+| **[`internal/ds`](internal/ds/README.md)** | Data Structures | LRU Cache, Heap, BST, Linked List, Stack/Queue |
+| **[`internal/algo`](internal/algo/README.md)** | Algorithms | Sliding Window, Backtracking, DFS/BFS, Sorting |
+| **[`internal/leetcode`](internal/leetcode/README.md)** | **Sandbox** | Two Sum, Valid Parentheses, Stock Best Time (100% Executable) |
 
 ### 📚 Phase 5: CS Fundamentals (Theory)
 | Package | Description | Key Concepts |
 |:---|:---|:---|
-| **[`fundamentals/os`](fundamentals/os)** | Operating Systems | Process vs Thread, Concurrency Models, Virtual Memory, CPU Scheduling, Deadlock, Memory Management, System Calls, File Systems |
-| **[`fundamentals/networking`](fundamentals/networking)** | Networking | TCP vs UDP, HTTP Evolution, Load Balancing (L4/L7), DNS, WebSockets/SSE, TLS/SSL, gRPC/GraphQL, CDN, API Gateway |
-| **[`fundamentals/database`](fundamentals/database)** | Databases | ACID, Isolation Levels, Indexing (B-Tree vs LSM), CAP, Replication, Locking, Query Optimization, NoSQL vs SQL, Connection Pooling, Caching, Distributed Transactions |
+| **[`fundamentals/os`](fundamentals/os/README.md)** | Operating Systems | Process vs Thread, Concurrency Models, Virtual Memory, CPU Scheduling, Deadlock, Memory Management, System Calls, File Systems |
+| **[`fundamentals/networking`](fundamentals/networking/README.md)** | Networking | TCP vs UDP, HTTP Evolution, Load Balancing (L4/L7), DNS, WebSockets/SSE, TLS/SSL, gRPC/GraphQL, CDN, API Gateway |
+| **[`fundamentals/database`](fundamentals/database/README.md)** | Databases | ACID, Isolation Levels, Indexing (B-Tree vs LSM), CAP, Replication, Locking, Query Optimization, NoSQL vs SQL, Connection Pooling, Caching, Distributed Transactions |
 
 ---
 
@@ -74,10 +74,10 @@ We've organized the chaos into 10 structured domains.
 **New to the handbook?** Start with these curated navigation pages:
 
 ### 📖 Fundamentals (Theory)
-- **[All Fundamentals](fundamentals/)** - Overview of OS, Networking, and Database topics
-  - [Operating Systems](fundamentals/os/) - 8 essential OS topics
-  - [Networking](fundamentals/networking/) - 8 networking fundamentals
-  - [Database](fundamentals/database/) - 9 database concepts
+- **[All Fundamentals](fundamentals/README.md)** - Overview of OS, Networking, and Database topics
+  - [Operating Systems](fundamentals/os/README.md) - 8 essential OS topics
+  - [Networking](fundamentals/networking/README.md) - 8 networking fundamentals
+  - [Database](fundamentals/database/README.md) - 9 database concepts
 
 ### 💻 Internal Packages (Go Code)
 - **[All Internal Packages](internal/)** - Complete guide to executable Go examples
